@@ -13,6 +13,8 @@ Task Completion Tracker is a web-based application designed to help users organi
 - Analytics dashboard with key metrics
 - Responsive design for desktop and mobile use
 - Local storage integration for data persistence
+  
+
 
 ## Technologies Used
 - HTML5
@@ -40,4 +42,7 @@ You can customize the appearance of the application by modifying the `styles.css
 
 ## Contributing
 Contributions to improve the Task Completion Tracker are welcome. Please feel free to fork the repository, make changes, and submit a pull request.
+![Screenshot 2024-10-12 215652](https://github.com/user-attachments/assets/12c65182-2150-46a1-b5e0-c1dfd786e9fb)
+![Screenshot 2024-10-12 215714](https://github.com/user-attachments/assets/1460874d-c3aa-4a9b-932f-d1975228de3e)
+
 
