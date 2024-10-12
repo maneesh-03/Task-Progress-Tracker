@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Completion Tracker</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Task Completion Tracker</h1>
+        
+        <div id="input-section" class="card">
+            <input type="text" id="subject-name" placeholder="Enter subject name">
+            <button onclick="addSubject()" class="btn btn-primary">Add</button>
+        </div>
+        
+        <div id="subjects"></div>
+        
+        <div class="completion-info card">
+            <p>Overall Percentage Completion:</p>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+            </div>
+            <p><span id="overallCompletion" class="highlight">0%</span></p>
+        </div>
+        
+        <div class="chart-container card">
+            <canvas id="completionChart"></canvas>
+        </div>
+
+        <div id="analytics" class="analytics"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
