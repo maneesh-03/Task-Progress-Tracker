@@ -1,4 +1,4 @@
-# Task Completion Tracker
+# Task Progress Tracker
 
 ## Description
 Task Completion Tracker is a web-based application designed to help users organize, track, and visualize their progress on various tasks and projects. It allows users to create subjects, add subsections within each subject, and track individual tasks with an intuitive checkbox system.
